@@ -9,10 +9,10 @@ def start_game():
           "\n---Tommy Twizz's !MAGNIFICENT! *MAGICAL* number guessing game!!---".format(name)) 
     if high_score == float('inf'):
         print("There is no high score yet!")
-    else:
-        print("The current high score is {} attempts.".format(high_score))
     while True:
         print("\n{}, starting a new game... ".format(name))
+        if high_score != float('inf')
+            print("The current high score is {} attempts.".format(high_score))
         winning_number = random.randint(1, 10)
         attempts = 0
         while True:
